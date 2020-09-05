@@ -1,7 +1,7 @@
-a:link { color: #000000; }
-a:visited { color: #000000; }
-a:hover {color: #000000; }
-a:active {color: #000000; }
+a:link { color: #FFEBCD; }
+a:visited { color: #FFEBCD; }
+a:hover {color: #FFEBCD; }
+a:active {color: #FFEBCD; }
 
 html, body {
     background-color: #5E97B9;
