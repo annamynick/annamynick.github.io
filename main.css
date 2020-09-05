@@ -4,8 +4,8 @@ a:hover {color: #000000; }
 a:active {color: #000000; }
 
 html, body {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #5E97B9;
+    color: #FFEBCD;
     margin: 0;
     position: relative;
     display: flex;
@@ -18,7 +18,7 @@ img {
 }
 
 div#title {
-    color: #000000;
+    color: #FFEBCD;
     font-family: yrsa, serif;
     font-weight: 700;
     font-style: normal;
@@ -28,10 +28,10 @@ div#title {
 }
 
 div#main {
-    background-color: #FFFFFF;
+    background-color: #5E97B9;
     font-family: yrsa, serif;
     font-weight: 400;
-    font-size: 18pt;
+    font-size: 16pt;
     text-align: left;
     width: 60%;
     margin-left: auto;
