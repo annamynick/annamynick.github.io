@@ -1,0 +1,40 @@
+a:link { color: #000000; }
+a:visited { color: #000000; }
+a:hover {color: #000000; }
+a:active {color: #000000; }
+
+html, body {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 500;
+}
+
+div#title {
+    color: #000000;
+    font-family: yrsa, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40pt;    
+    text-align: center;
+    padding: 20pt 20pt 20pt 20pt; 
+}
+
+div#main {
+    background-color: #FFFFFF;
+    font-family: yrsa, serif;
+    font-weight: 400;
+    font-size: 16pt;
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
