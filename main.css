@@ -1,41 +1,37 @@
-a:link { color: #FFEBCD; }
-a:visited { color: #FFEBCD; }
-a:hover {color: #FFEBCD; }
-a:active {color: #FFEBCD; }
+html,
+body {
+  background-color: #5E97B9;
+  color: #FFEBCD;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: yrsa, serif;
+  font-weight: 400;
+  font-size: 16pt;
+  line-height: 1.5;
 
-html, body {
-    background-color: #5E97B9;
-    color: #FFEBCD;
-    margin: 0;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    line-height: 1.5
+}
+
+main {
+  width: 60%;
+  margin: auto;
 }
 
 img {
-    height: 500;
+  height: 500px;
 }
 
-div#title {
-    color: #FFEBCD;
-    font-family: yrsa, serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40pt;    
-    text-align: center;
-    padding: 20pt 20pt 20pt 20pt; 
+h1 {
+  font-size: 40pt;
+  text-align: center;
+  padding: 20pt;
+  margin: 0;
 }
 
-div#main {
-    background-color: #5E97B9;
-    font-family: yrsa, serif;
-    font-weight: 400;
-    font-size: 16pt;
-    text-align: left;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+a {
+  color: #FFEBCD;
+}
+
+#links {
+  text-align: center;
 }
