@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #FFEBCD;
+  background-color: #FFF7EB;
   color: #5E97B9;
   margin: 0;
   display: flex;
@@ -33,7 +33,7 @@ h1 {
 }
 
 a {
-  color: #FFEBCD;
+  color: #5E97B9;
 }
 
 #links {
