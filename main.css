@@ -1,14 +1,15 @@
 html,
 body {
-  background-color: #5E97B9;
-  color: #FFEBCD;
+  background-color: #FFEBCD;
+  color: #5E97B9;
   margin: 0;
   display: flex;
   justify-content: center;
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 300;
-  font-size: 15pt;
-  line-height: 1.6;
+  font-family: atten-new, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16pt;
+  line-height: 1.5;
 
 }
 
@@ -22,6 +23,9 @@ img {
 }
 
 h1 {
+  font-family: atten-new, sans-serif;
+  font-weight: 800;
+  font-style: normal;
   font-size: 40pt;
   text-align: center;
   padding: 20pt;
