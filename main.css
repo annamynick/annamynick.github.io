@@ -5,7 +5,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  font-family: quasimoda, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14pt;
@@ -23,12 +23,12 @@ img {
 }
 
 h1 {
-  font-family: quasimoda, sans-serif;  
+  font-family: proxima-nova, sans-serif;  
   font-weight: 700;
   font-style: normal;
   font-size: 50pt;
   text-align: center;
-  padding: 20pt;
+  padding: 30pt;
   margin: 0;
 }
 
@@ -43,11 +43,11 @@ a {
 
 img {
   float: left;
-  padding-top: 10px;
-  padding-right: 30px;
+  padding-top: 8px;
+  padding-right: 24px;
 }
 
 img.resize {
-  width:308px;
-  height:300px;
+  width:270px;
+  height:270px;
 }
