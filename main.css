@@ -1,11 +1,11 @@
 html,
 body {
-  background-color: #598dba;
-  color: #b1c3cf;
+  background-color: #598DBA; 
+  color: #D8E4ED;
   margin: 0;
   display: flex;
   justify-content: center;
-  font-family: arial, sans-serif;
+  font-family: quasimoda, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14pt;
@@ -23,7 +23,7 @@ img {
 }
 
 h1 {
-  font-family: arial, sans-serif;
+  font-family: quasimoda, sans-serif;  
   font-weight: 700;
   font-style: normal;
   font-size: 50pt;
@@ -33,10 +33,21 @@ h1 {
 }
 
 a {
-  color: #ffffff;
+  color: #FEFEFF;
     text-decoration: none;
 }
 
 #links {
   text-align: center;
+}
+
+img {
+  float: left;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+img.resize {
+  width:308px;
+  height:300px;
 }
