@@ -1,11 +1,11 @@
 html,
 body {
-    background-color: #f5ede4; 
+    background-color: #e4ebeb; 
     color: #252624;
     margin: 0;
     display: flex;
     justify-content: center;
-    font-family: franklin-gothic-urw, sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 14pt;
@@ -22,7 +22,7 @@ img {
 }
 
 h1 {
-    font-family: franklin-gothic-urw, sans-serif;
+    font-family: "Helvetica Neue" sans-serif;
     font-weight: 900;
     font-style: normal;
     font-size: 35pt;
