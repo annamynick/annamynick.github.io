@@ -1,53 +1,152 @@
 html,
 body {
-    background-color: #e4ebeb; 
-    color: #252624;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    font-family: franklin-gothic-urw, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16pt;
-    line-height: 1.5;
+  background-color: #e4ebeb;
+  color: #252624;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  line-height: 1.5;
 }
 
 main {
-    max-width: 60%;
-    margin: auto;
+  max-width: 60%;
+  margin: auto;
 }
 
-img {
-    height: 500px;
+p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 h1 {
-    font-family: franklin-gothic-urw, sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 35pt;
-    text-align: center;
-    padding: 2pt;
-    margin: 30;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 35pt;
+  text-align: center;
+  padding: 20pt;
+  margin: 0;
 }
 
 a {
-    color: #51736D;
-    text-decoration: none;
+  color: #51736D;
+  text-decoration: none;
 }
 
+a:hover {
+  opacity: 0.7;
+}
+
+/* ── Nav ── */
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 16pt;
+  margin-bottom: 28pt;
+  border-bottom: 1px solid #b8c5c4;
+}
+
+.site-nav a {
+  color: #252624;
+  font-size: 13pt;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  opacity: 0.55;
+  transition: opacity 0.2s;
+}
+
+.site-nav a:hover {
+  opacity: 1;
+}
+
+.site-nav a.active {
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* ── Home page layout ── */
 #links {
-    text-align: center;
-    margin-bottom: 30px; /* adds space below the links */
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 img {
-    float: left;
-    padding-top: 8px;
-    padding-right: 24px;
+  padding-top: 8px;
+  padding-right: 24px;
 }
 
 img.resize {
-    width:270px;
-    height:270px;
+  width: 320px;
+  height: 320px;
+}
+
+.content-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.text-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-links {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.icon-links a {
+  color: #51736D;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.icon-links a:hover {
+  opacity: 0.6;
+}
+
+.header2 {
+  font-size: 20pt;
+  color: #51736D;
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+
+/* ── Research page layout ── */
+.project-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 28pt 0;
+  border-bottom: 1px solid #b8c5c4;
+}
+
+.project-row:last-child {
+  border-bottom: none;
+}
+
+.project-img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+  padding: 0;
+  /* background shown if image is missing */
+  background-color: #cdd8d7;
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
