@@ -147,3 +147,56 @@ img.resize {
   flex-direction: column;
   justify-content: center;
 }
+
+/* ── Mobile (≤ 700px) ── */
+@media (max-width: 700px) {
+  html, body {
+    font-size: 13pt;
+  }
+
+  main {
+    max-width: 88%;
+  }
+
+  h1 {
+    font-size: 26pt;
+    padding: 14pt 0;
+  }
+
+  /* Home page: stack image above text, center everything */
+  .content-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    text-align: center;
+  }
+
+  img.resize {
+    width: 220px;
+    height: 220px;
+  }
+
+  .icon-links {
+    justify-content: center;
+  }
+
+  /* Research page: stack image above text, scale image to screen */
+  .project-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 20pt 0;
+  }
+
+  .project-img {
+    width: 100%;
+    height: auto;
+    max-height: 360px;
+    object-fit: contain;
+    background-color: transparent;
+  }
+
+  .site-nav {
+    gap: 1.5rem;
+  }
+}
