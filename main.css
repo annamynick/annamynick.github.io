@@ -75,14 +75,12 @@ a:hover {
   margin-bottom: 30px;
 }
 
-img {
-  padding-top: 8px;
-  padding-right: 24px;
-}
-
 img.resize {
   width: 320px;
   height: 320px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
 }
 
 .content-row {
@@ -140,7 +138,6 @@ img.resize {
   object-fit: cover;
   border-radius: 10px;
   flex-shrink: 0;
-  padding: 0;
   /* background shown if image is missing */
   background-color: #cdd8d7;
 }
